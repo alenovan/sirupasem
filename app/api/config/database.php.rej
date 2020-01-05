@@ -1,0 +1,19 @@
+diff a/app/api/config/database.php b/app/api/config/database.php	(rejected hunks)
+@@ -75,10 +75,13 @@
+ 
+ $db['default'] = array(
+ 	'dsn'	=> '',
+-	'hostname' => '127.0.0.1',
+-	'username' => 'root',
+-	'password' => '',
+-	'database' => 'pulsa',
++	'hostname' => 'localhost',
++	'username' => 'gpdimara_server',
++	'password' => 'alenovan123',
++	'database' => 'gpdimara_pulsa',
++	// 'username' => 'root',
++	// 'password' => '',
++	// 'database' => 'pulsa',
+ 	'dbdriver' => 'mysqli',
+ 	'dbprefix' => '',
+ 	'pconnect' => FALSE,

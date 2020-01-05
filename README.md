@@ -1,1 +1,1 @@
-# sirupasem
+minipanel-moderator
