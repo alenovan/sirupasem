@@ -188,7 +188,7 @@ class Peminjaman extends MY_Controller {
                 'jointype' => ''
             )
         );
-		$data = $this->M_peminjaman->fetch_joins('peminjaman a', 'a.*,b.nama_barang', $joins,'id_peminjaman = 2'. $id,TRUE);
+		$data = $this->M_peminjaman->fetch_joins('peminjaman a', 'a.*,b.nama_barang', $joins,'id_peminjaman = '. $id,TRUE);
 			if(count($data) == 0){
 			$json_data =  array(
 				"result" => FALSE ,
